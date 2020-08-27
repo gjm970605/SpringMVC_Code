@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day02Server_upload:war exploded">
+    <output-path>$PROJECT_DIR$/day02Server_upload/target/day02Server_upload</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>day02Server_upload</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day02Server_upload" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/day02Server_upload/target/day02Server_upload/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="day02Server_upload/web/Web" />
+    </root>
+  </artifact>
+</component>

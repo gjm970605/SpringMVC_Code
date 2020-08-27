@@ -1,0 +1,6 @@
+# Project exclude paths
+/day01SpringMVC_01/target/
+/day02Server_upload/target/
+/day02SpringMVC_file/target/
+/day03SSM/target/
+/SSM_practice/target/

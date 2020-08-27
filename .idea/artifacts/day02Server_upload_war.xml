@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day02Server_upload:war">
+    <output-path>$PROJECT_DIR$/day02Server_upload/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day02Server_upload</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day02Server_upload.war">
+      <element id="artifact" artifact-name="day02Server_upload:war exploded" />
+    </root>
+  </artifact>
+</component>
