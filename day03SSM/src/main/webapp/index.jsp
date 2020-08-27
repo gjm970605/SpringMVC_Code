@@ -12,5 +12,7 @@
         <input type="submit" value="保存"/>
     </form>
 
+    <h2>版本2.0</h2>
+
 </body>
 </html>
